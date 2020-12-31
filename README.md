@@ -1,4 +1,23 @@
-### Hi there 👋
+<!--
+<img align="right" src="https://github-readme-stats.vercel.app/api?username=icevin&hide=stars&show_icons=true&hide_title=false&hide_rank=false&include_all_commits=false&count_private=true&custom_title=Contributions" />
+-->
+
+
+### Hi there! 😄
+
+I'm a second year computer engineering student at UCLA. I enjoy building impactful products and providing satisfying user experiences.
+ - I'm currently interested in design & human-computer interaction
+ - My first love was robotics & hardware
+ 
+
+<!-- Todo: add style w/ svgs, e.g. <img src="./image.svg"> -->
+
+
+<img align="left" src="https://github-readme-stats.vercel.app/api?username=icevin&hide=stars&show_icons=true&hide_title=false&hide_rank=true&include_all_commits=false&count_private=true&custom_title=Contributions" />
+
+
+<img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=icevin&layout=compact" />
+
 
 <!--
 **icevin/icevin** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
