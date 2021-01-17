@@ -22,7 +22,7 @@ jobs:
         run: sudo apt-get install unoconv
 
       - name: Clean pdf
-        run: rm -f kevin-tang-resume.pdf
+        run: rm -f auto-output.pdf
 
       # Build pdf from docx
       - name: Build pdf
@@ -32,7 +32,7 @@ jobs:
         with:
           # The arguments for the `git add` command (see the paragraph below for more info)
           # Default: '.'
-          add: 'kevin-tang-resume.pdf'
+          add: 'auto-output.pdf'
 
           # The message for the commit
           # Default: 'Commit from GitHub Actions (name of the workflow)'
