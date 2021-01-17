@@ -1,0 +1,47 @@
+name: Resume-Build
+
+# Run this workflow every time a commit is pushed
+
+on: push
+
+jobs:
+  # Set the job key. The key is displayed as the job name
+  # when a job name is not provided
+  resume-build:
+    # Name the Job
+    name: Build pdf from docx
+    # Set the type of machine to run on
+    runs-on: ubuntu-latest
+
+    steps:
+      # Checks out a copy of your repository on the ubuntu-latest machine
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Conv install
+        run: sudo apt-get install unoconv
+
+      - name: Clean pdf
+        run: rm -f resume.pdf
+
+      # Build pdf from docx
+      - name: Build pdf
+        run: doc2pdf resume.docx -o kevin-tang-resume.pdf
+
+      - uses: EndBug/add-and-commit@v7 # You can change this to use a specific version
+        with:
+          # The arguments for the `git add` command (see the paragraph below for more info)
+          # Default: '.'
+          add: 'kevin-tang-resume.pdf'
+
+          # The message for the commit
+          # Default: 'Commit from GitHub Actions (name of the workflow)'
+          message: 'Auto-build resume pdf'
+
+          # Whether to push the commit and, if any, its tags to the repo. It can also be used to set the git push arguments (see the paragraph below for more info)
+          # Default: true
+          push: true
+
+          # Whether to use the --signoff option on `git commit` (only `true` and `false` are accepted)
+          # Default: false
+          signoff: true
