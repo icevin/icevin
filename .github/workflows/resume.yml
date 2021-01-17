@@ -22,11 +22,11 @@ jobs:
         run: sudo apt-get install unoconv
 
       - name: Clean pdf
-        run: rm -f resume.pdf
+        run: rm -f kevin-tang-resume.pdf
 
       # Build pdf from docx
       - name: Build pdf
-        run: doc2pdf resume.docx -o kevin-tang-resume.pdf
+        run: doc2pdf -e PageRange=1-2 -o auto-output.pdf resume.docx
 
       - uses: EndBug/add-and-commit@v7 # You can change this to use a specific version
         with:
