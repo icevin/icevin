@@ -5,7 +5,7 @@
 
 ### Hi there! 😄
 
-I'm a second year computer engineering student at UCLA. I enjoy building impactful products and providing satisfying user experiences.
+I'm a first year computer science master's student at UCLA. I enjoy building impactful products and providing satisfying user experiences.
 <!--
  - I'm currently interested in design & human-computer interaction
  - My first love was robotics & hardware
