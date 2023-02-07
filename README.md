@@ -5,7 +5,7 @@
 
 ### Hi there! 😄
 
-I'm a first year computer science master's student at UCLA. I enjoy building impactful products and providing satisfying user experiences.
+I'm a first year computer science master's student at UCLA.
 <!--
  - I'm currently interested in design & human-computer interaction
  - My first love was robotics & hardware
@@ -13,11 +13,11 @@ I'm a first year computer science master's student at UCLA. I enjoy building imp
 
 <!-- Todo: add style w/ svgs, e.g. <img src="./image.svg"> -->
 
-
+<!-- 
 <img align="left" src="https://github-readme-stats.vercel.app/api?username=icevin&hide=stars&show_icons=true&hide_title=false&hide_rank=true&include_all_commits=false&count_private=true&custom_title=Contributions" />
 
 
-<img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=icevin&layout=compact" />
+<img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=icevin&layout=compact" /> -->
 
 
 <!--
